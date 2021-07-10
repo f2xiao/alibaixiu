@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+ul,
+li {
+  list-style-type: none;
+  padding-left: 0;
+}
+a:link,
+a:visited {
+  text-decoration: none;
+}
+header {
+  padding-left: 0 !important;
+}
+.logo {
+  background: #ff5e52;
+}
+.logo img {
+  width: 100%;
+}
+nav ul li a {
+  display: block;
+  color: #666;
+  height: 50px;
+  line-height: 50px;
+  padding-left: 50px;
+  background: #f6f6f6;
+}
